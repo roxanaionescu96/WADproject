@@ -1,0 +1,23 @@
+Requirements
+
+
+The specific requirements are:
+
+
+0.Functionality of the website
+1.Being able for everyone to access the website using the domain :www.trscompany.com
+2.The website should show all the pages proposed
+3.Enter the homepage and read the overview of the company.
+4.Being able to obtain contact information like telephone number,send an email and visualize on the street map where the company is located
+and how can we reach that location exactly.
+5.Find all the information needed about the services these company offers including the range price also .
+6.System should provide product categorization also
+7.The system shall maintain customer email information as a required part of customer profile.
+8.The system shall send an order confirmation to the user through email.
+9.There are no memory requirements 
+10.The computers must be equipped with web browsers such as Internet explorer. 
+11.The product must be stored in such a way that allows the client easy access to it. 
+12.Response time for loading the service should take no longer than five minutes.
+13.Customer should be able to use the calendar easily to visualize the services available in that day,the working hours of the company and what 
+services can they pick .
+

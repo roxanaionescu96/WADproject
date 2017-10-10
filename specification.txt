@@ -1,0 +1,52 @@
+Specifications.
+
+OBJECTIVE OF THE SITE
+1.The purpose of creating this website is to present a company services that offers in order to increase its sales and the number of inquires.
+The company repairs heavy machinery ,creates hoses for machinery and focuses on the hydraulics and mechanics part.
+KEY AUDIENCE
+2. The key audience we try to reach is the existing clients also to be easy for them to inform on the new updates and future customers also
+to appeal to the services the company provides in a more simple way.
+
+PROVISIONAL SITE STRUCTURE
+2.1 Search Engine Ranking
+The website should be accessible to search engine spiders and be coded with good on-page search engine optimisation.
+The designer should propose seperately a budget for link building required to make the site reasonably competitive in the target market
+
+3.This structure is likely to change  through the design stage of the website.
+A website structure that i try to incorporate is this one "http://www.realcm.ro/proiecte/"
+
+3.1 Home Page
+The home page will give visitors an overview of our services.
+3.2 Services List
+This page will give an overview of each of our products
+3.3 Services Detail Pages
+For each service there will be provided a detailed summary of the service  including prices and photographs.
+3.4 About Us
+Details about our company and personnel.
+3.5 Contact Us
+Full contact details including a map.
+3.6 Site Map
+A site map should be provided showing the structure of the site and linking to every page on the site
+3.7 Calendar
+The calendar should provide the services available that day and the free hours of the services and also the working hours of that company
+
+4.1 Overall Style
+The site style should incorporate our corporate colours and logo.
+4.2 Navigation
+A common navigation bar should be included on all pages. 
+he navigation bar will include links to the home page, services list, about us, and contact details.
+5.1 Accessibility
+This site must comply with the standards of accessibility contained in W3C WAI (World Wide Web Consortium Web Accessibility Initiative) level A Guidelines.
+5.2 Valid Code
+All code on the site should validate to W3C (World Wide Web Consortium) specifications.
+
+
+TECHNICAL SPECIFICATION?????(a more detailed description of points presented below )???(not yet decided on the technology to be used 
+for creating this website)
+
+4.It is a ecommerce site that will have a list containing the services provided by the company.
+5.It will also have a main page where there will be a short description of the company ,including contacting details like telephone number ,email,a map that has a 
+pin that shows where is the company located.
+6.On another page the services will be listed and a calendar will be present to show the user the days when the company is open and the services available 
+on that day .
+7.Proposed domain name :www.trscompany.com
