@@ -1,15 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, ApplicationRef } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import {FormsModule} from '@angular/forms';
-import { LoginFormComponent } from './login-form/login-form.component';
-import { FooterComponent } from './footer/footer.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HomepageComponent } from './homepage/homepage.component';
+
+import { AgmCoreModule } from '@agm/core';
 import {RouterModule, Routes} from '@angular/router';
-import { AboutPageComponent } from './about-page/about-page.component';
-import { ContactComponent } from './contact/contact.component';
-import { ServicesComponent } from './services/services.component';
+import {HomepageComponent} from './homepage/homepage.component';
+import {ContactComponent} from './contact/contact.component';
+import {ServicesComponent} from './services/services.component';
+import {AboutPageComponent} from './about-page/about-page.component';
+import {LoginFormComponent} from './login-form/login-form.component';
+
 const  appRoutes: Routes = [
   {path: 'homepage ', component: HomepageComponent},
   {path: 'about-page', component: AboutPageComponent},
@@ -17,7 +19,7 @@ const  appRoutes: Routes = [
   {path: 'contact', component: ContactComponent}
 ];
 
-@NgModule({
+@NgModule(<NgModule>{
   declarations: [
     AppComponent,
     ContactComponent,
@@ -32,9 +34,14 @@ const  appRoutes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
-    FormsModule
+    FormsModule,
+    CommonModule,
+    FormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCIZY4a4yAcFGLWpk-67FRf8q0XHKURYpg'
+    })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
